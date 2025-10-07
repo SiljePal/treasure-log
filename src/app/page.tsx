@@ -7,7 +7,7 @@ export default function Home() {
     <main className="min-h-screen p-4">
       <header className="flex flex-col items-center">
         <Image
-        src='/images/logo.png'
+        src='/images/logo.webp'
         alt="Treasure Log logo"
 
         height={200}
