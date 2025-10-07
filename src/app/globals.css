@@ -1,26 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
+
+@theme {
+  /* Color Palette
+    #462211, #874121, #eecab9
+    #faefeb, #ddeff7, #b9ddee 
+  */
+
+  /* Primary/Earthy Tones */
+  --color-brand-deep: #462211;
+  --color-brand-medium: #874121;
+  --color-brand-light: #eecab9;
+
+  /* Backgrounds/Cool Tones */
+  --color-bg-base: #faefeb;
+  --color-bg-subtle: #ddeff7;
+  --color-accent-blue: #b9ddee;
+
+  --font-family-title: "Cherry Bomb One", system-ui, sans-serif;
+}
+
 @import "tailwindcss";
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+background-color: var(--color-brand-light);
 }
